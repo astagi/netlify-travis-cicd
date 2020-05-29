@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <img alt="Vue logo" src="https://travis-ci.org/images/logos/TravisCI-Mascot-1.png">
+    <img alt="Vue logo" src="https://www.netlify.com/img/press/logos/logomark-light.png">
+    <HelloWorld msg="CI/CD with TravisCI and Netlify"/>
   </div>
 </template>
 
@@ -25,5 +26,15 @@ export default class App extends Vue {}
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img {
+  width: auto;
+  height: 200px;
+  padding: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  img {
+    height: 100px;
+  }
 }
 </style>
