@@ -3,6 +3,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7886dc92-808d-4ce2-8189-6b36056c554e/deploy-status)](https://app.netlify.com/sites/frosty-lamarr-758586/deploys)
 [![Build Status](https://travis-ci.org/astagi/netlify-travis-cicd.svg?branch=master)](https://travis-ci.org/astagi/netlify-travis-cicd)
 
+👉🏻 Full article [here](https://dev.to/astagi/setup-travisci-to-test-build-and-deploy-your-app-on-netlify-in-5-minutes-khn)
+
 This is a repository to experiment CI/CD with TravisCI and Netlify, configuring TravisCI to test, build and then deploy your website on Netlify. For more about CI/CD with TravisCI and Netlify [read this article](https://dev.to/astagi/continuous-integration-and-deployment-with-travisci-and-netlify-4294).
 
 First you need to disable automatic builds in Netlify site dashboard under `Build & Deploy` > `Continuous Deployment` > `Build settings`. Without this option I suggest to run a separate instance on Netlify to easily keep features like site preview on pull requests (check [this pull request](https://github.com/astagi/netlify-travis-cicd/pull/2) to see how it works)
