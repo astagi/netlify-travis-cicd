@@ -4,6 +4,7 @@
     <p>
       Learn how to setup <a href="https://github.com/astagi/netlify-travis-cicd" target="_blank" rel="noopener">CI/CD with TravisCI and Netlify</a>, configuring TravisCI to run tests, build site and then deploy on Netlify.
     </p>
+    <hr>
     <p>
       For more about CI/CD with TravisCI and Netlify <a href="https://dev.to/astagi/continuous-integration-and-deployment-with-travisci-and-netlify-4294" target="_blank" rel="noopener">read this article</a>
     </p>
@@ -21,6 +22,9 @@ export default class HelloWorld extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+hr {
+  border: 1px solid #41B883;
+}
 h3 {
   margin: 40px 0 0;
 }
